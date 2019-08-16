@@ -12,45 +12,7 @@ namespace Internal.HealthBrigde.Cleint.Controllers
   {
     public ActionResult Index()
     {
-      var patients = new List<Patient>
-      {
-        new Patient
-        {
-          PatientId = 1,
-          FirstName = "Sethu",
-          LastName = "Mazibuko",
-          IdNumber = 8922
-        },
-        new Patient
-        {
-          PatientId = 2,
-          FirstName = "Lucky",
-          LastName = "Zulu",
-          IdNumber = 8922
-        },
-        new Patient
-        {
-          PatientId = 3,
-          FirstName = "Zama",
-          LastName = "Gumbi",
-          IdNumber = 8922
-        },
-        new Patient
-        {
-          PatientId = 4,
-          FirstName = "Menzi",
-          LastName = "Peterson",
-          IdNumber = 8922
-        },
-        new Patient
-        {
-          PatientId = 5,
-          FirstName = "Luke",
-          LastName = "Swan",
-          IdNumber = 8922
-        }
-      };
-      return View(patients);
+      return View();
     }
 
 
